@@ -4,7 +4,7 @@ import scipy.optimize as opt
 from pylab import *
 from matplotlib import animation
 #### MODEL PARAMETERS##########################################################
-nx = 50 ; ny = 20 ; q = 9 ; tau = 1.85 ; maxiter = 100; du = 0.005
+nx = 75 ; ny = 30 ; q = 9 ; tau = 1.85 ; maxiter = 100; du = 0.005
 obx= nx/2; oby = ny/2  #coordinates of bottom left rectangular obstacle point
 lx=3; ly=5 
 e = np.array([[0,0], [1,0], [1,1], [0,1], [-1,1], [-1,0], [-1,-1], [0,-1], [1,-1]])
